@@ -1,0 +1,50 @@
+.title {
+	font-family: "Slabo 27px";	
+}
+
+.dropbtn {
+	background: none;
+	border: none;
+	cursor: pointer;
+}
+
+#menubtn {
+	height: 40px;
+	width: 40px;
+}
+
+.menubar {
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	font-family: "Roboto Condensed";
+}
+
+.dropdown-content a: hover {
+	background-color: #F1F1F1;
+}
+
+.show {
+	display: block;
+}
+
+@media only screen
+and (min-device-width: 1200px)
+and (max-device-width: 1600px)
+and (-webkit-min-device-pixel-ratio: 1) {
+
+}
