@@ -1,21 +1,38 @@
+body {
+	margin: 0;
+}
+
 .title {
-	font-family: "Slabo 27px";	
+	height: 10vh;
+	line-height: 10vh;
+	font-family: "Slabo 27px";
+	font-size: 40px;
+	font-size: 6vw;
+	margin-left: 12px;
+	text-align: left;
 }
 
 .dropbtn {
+	height: 10vh;
+	line-height: 10vh;
+	/*height: 40px;*/
+	width: 10vh;
 	background: none;
 	border: none;
 	cursor: pointer;
-}
-
-#menubtn {
-	height: 40px;
-	width: 40px;
+	float: right;
 }
 
 .menubar {
 	position: relative;
-	display: inline-block;
+	display: block;
+	background-color: #99B3FF;
+	border-bottom: 2px solid #668CFF;
+	width: 100%;
+	position: fixed;
+	margin: 0;
+	padding: 0;
+	top: 0;
 }
 
 .dropdown-content {
