@@ -22,6 +22,10 @@ body {
 	padding: 0 5px 0 0;
 }
 
+.dropbtn:focus {
+	outline: none;
+}
+
 .menubar {
 	position: relative;
 	display: block;
@@ -45,6 +49,8 @@ body {
 }
 
 .dropdown-content a {
+	height: 3vh;
+	line-height: 3vh;
 	color: black;
 	text-align: center;
 	padding: 12px 8px;
@@ -68,7 +74,13 @@ body {
 	display: block;
 }
 
+.content {
+	padding: 10vh 10px 0 10px;
+}
 
+.menuvis {
+	padding-top: 45vh;
+}
 
 @media only screen
 and (min-device-width: 1200px)
