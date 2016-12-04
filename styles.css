@@ -3,14 +3,18 @@ body {
 }
 
 .title {
+	height: 10vh;
+	line-height: 10vh;
 	font-family: "Slabo 27px";
-	font-size: 75px;
+	font-size: 70px;
 	margin-left: 12px;
 	text-align: left;
 }
 
 .dropbtn {
 	height: 10vh;
+	line-height: 10vh;
+	/*height: 40px;*/
 	width: 10vh;
 	background: none;
 	border: none;
@@ -19,8 +23,7 @@ body {
 }
 
 .menubar {
-	height: 10vh;
-	line-height: 10vh;
+	position: relative;
 	display: block;
 	background-color: #99B3FF;
 	border-bottom: 2px solid #668CFF;
@@ -64,7 +67,7 @@ body {
 
 @media all and (max-width: 1000px) {
 	.title {
-		font-size: 7.5vw;
+		font-size: 7vw;
 	}
 }
 
