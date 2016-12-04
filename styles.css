@@ -2,6 +2,15 @@ body {
 	margin: 0;
 }
 
+.index {
+	/*background: url(./dna-bg.jpg) no-repeat center center fixed;*/
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
 .title {
 	height: 10vh;
 	line-height: 10vh;
@@ -75,13 +84,17 @@ body {
 	display: block;
 }
 
+.selected {
+	background-color: #7799FF;
+}
+
 .content {
 	padding: 10vh 10px 0 10px;
 }
 
-/*.menuvis {
+.menuvis {
 	padding-top: 45vh;
-}*/
+}
 
 @media only screen
 and (min-device-width: 1200px)
