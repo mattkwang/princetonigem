@@ -14,7 +14,6 @@ body {
 .dropbtn {
 	height: 10vh;
 	line-height: 10vh;
-	/*height: 40px;*/
 	width: 10vh;
 	background: none;
 	border: none;
@@ -41,6 +40,7 @@ body {
 	background-color: #668CFF;
     min-width: 160px;
     margin-top: 2px;
+    border-bottom: 1px solid #000000;
     /*box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);*/
 }
 
@@ -52,13 +52,16 @@ body {
 	text-decoration: none;
 	display: block;
 	font-family: "Roboto Condensed";
-	font-size: 80vw;
+	font-size: 8vw;
 	border: 1px solid #668CFF;
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	-o-transition: all 0.2s ease;
 }
 
 .dropdown-content a:hover {
 	background-color: #7799FF;
-	border-color: #000E3A;
+	border-color: #000000;
 }
 
 .show {
