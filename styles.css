@@ -7,7 +7,7 @@ body {
 	line-height: 10vh;
 	font-family: "Slabo 27px";
 	font-size: 40px;
-	font-size: 6vw;
+	font-size: 9vw;
 	margin-left: 12px;
 	text-align: left;
 }
@@ -38,9 +38,10 @@ body {
 .dropdown-content {
 	display: none;
 	position: absolute;
-	background-color: #f9f9f9;
+	background-color: #668CFF;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    margin-top: 2px;
+    /*box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);*/
 }
 
 .dropdown-content a {
@@ -49,10 +50,14 @@ body {
 	text-decoration: none;
 	display: block;
 	font-family: "Roboto Condensed";
+	font-size: 16px;
+	font-size: 2.5vw;
+	border: 1px solid #668CFF;
 }
 
-.dropdown-content a: hover {
-	background-color: #F1F1F1;
+.dropdown-content a:hover {
+	background-color: #7799FF;
+	border-color: #000E3A;
 }
 
 .show {
