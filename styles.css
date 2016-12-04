@@ -6,7 +6,8 @@ body {
 	height: 10vh;
 	line-height: 10vh;
 	font-family: "Slabo 27px";
-	font-size: 70px;
+	/*font-size: 70px;*/
+	font-size: 7vmin;
 	margin-left: 12px;
 	text-align: left;
 }
@@ -58,7 +59,7 @@ body {
 	text-decoration: none;
 	display: block;
 	font-family: "Roboto Condensed";
-	font-size: 8vw;
+	font-size: 8vmin;
 	border: 1px solid #668CFF;
 	-webkit-transition: all 0.2s ease;
 	-moz-transition: all 0.2s ease;
@@ -78,9 +79,9 @@ body {
 	padding: 10vh 10px 0 10px;
 }
 
-.menuvis {
+/*.menuvis {
 	padding-top: 45vh;
-}
+}*/
 
 @media only screen
 and (min-device-width: 1200px)
@@ -88,17 +89,17 @@ and (max-device-width: 1600px)
 and (-webkit-min-device-pixel-ratio: 1) {
 
 	.dropdown-content a {
-		font-size: 30px;
+		font-size: 3vmin;
 	}
 
 	@media all and (max-width: 1000px) {
-		.title {
+/*		.title {
 			font-size: 7vw;
-		}
+		}*/
 
-		.dropdown-content a {
+/*		.dropdown-content a {
 			font-size: 3vw;
-		}
+		}*/
 	}
 
 }
