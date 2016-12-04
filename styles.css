@@ -50,8 +50,8 @@ body {
 }
 
 .dropdown-content a {
-	height: 3vh;
-	line-height: 3vh;
+	height: 5vh;
+	line-height: 5vh;
 	color: black;
 	text-align: center;
 	padding: 12px 8px;
@@ -89,6 +89,8 @@ and (max-device-width: 1600px)
 and (-webkit-min-device-pixel-ratio: 1) {
 
 	.dropdown-content a {
+		height: 3vh;
+		line-height: 3vh;
 		font-size: 3vmin;
 	}
 
