@@ -112,10 +112,6 @@ body {
 	padding: 10px;
 }
 
-@media only screen
-and (min-device-width: 1200px)
-and (max-device-width: 1600px)
-and (-webkit-min-device-pixel-ratio: 1) {
 
 	.banner {
 		width: 100vw;
@@ -149,6 +145,12 @@ and (-webkit-min-device-pixel-ratio: 1) {
 		border-bottom-right-radius: 5px;
 		border-bottom-left-radius: 5px
 	}
+
+@media only screen
+and (min-device-width: 1200px)
+and (max-device-width: 1600px)
+and (-webkit-min-device-pixel-ratio: 1) {
+
 
 	@media all and (max-width: 1000px) {
 
