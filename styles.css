@@ -214,6 +214,10 @@ h2 {
 	margin-top: 6px;
 }
 
+form p {
+	margin: 0;
+}
+
 input {
 	margin-bottom: 10px;
 }
