@@ -7,7 +7,7 @@ h2 {
 }
 
 .index {
-	background-color: #CEDAFF;
+	background-color: #3F61A4;
 }
 
 .title {
@@ -28,6 +28,7 @@ h2 {
 	cursor: pointer;
 	float: right;
 	padding: 0 5px 0 0;
+	margin-bottom: 0px;
 }
 
 .dropbtn:focus {
@@ -38,8 +39,8 @@ h2 {
 	z-index: 999;
 	position: relative;
 	display: block;
-	background-color: #99B3FF;
-	border-bottom: 2px solid #668CFF;
+	background-color: #A7C5FF;
+	border-bottom: 2px solid #2B52AD;
 	width: 100%;
 	position: fixed;
 	margin: 0;
@@ -50,10 +51,10 @@ h2 {
 .dropdown-content {
 	display: none;
 	position: absolute;
-	background-color: #668CFF;
+	background-color: #2B52AD;
     min-width: 160px;
     margin-top: 1px;
-    border-bottom: 1px solid #000000;
+    border-bottom: 1px solid #2B52AD;
 }
 
 .dropdown-content a {
@@ -65,7 +66,7 @@ h2 {
 	display: block;
 	font-family: "Roboto Condensed";
 	font-size: 6vmin;
-	border: 1px solid #668CFF;
+	border: 1px solid #2B52AD;
 	height: 3vmin;
 	line-height: 3vmin;
 	font-size: 3vmin;
@@ -75,8 +76,8 @@ h2 {
 }
 
 .dropdown-content a:hover {
-	background-color: #7799FF;
-	border-color: #000000;
+	background-color: #A7C5FF;
+	border-color: #2B52AD;
 }
 
 .show {
@@ -84,13 +85,13 @@ h2 {
 }
 
 .selected {
-	background-color: #7799FF;
+	background-color: #A7C5FF;
 }
 
 .text-bg {
-	background-color: #CEDAFF;
+	background-color: #3F61A4;
 	margin-top: calc(10vh + 40vw);
-	border-top: 2px solid #668CFF;
+	border-top: 2px solid #2B52AD;
 }
 
 .content {
@@ -103,6 +104,15 @@ h2 {
 	margin-right: auto;
 	border-bottom-right-radius: 5px;
 	border-bottom-left-radius: 5px
+}
+
+.content a {
+	color: #1111AA;
+	text-decoration: none;
+}
+
+.content img {
+	width: 100%;
 }
 
 .menuvis {
@@ -159,7 +169,7 @@ h2 {
 	bottom: -9px;
 	opacity: 0;
 	font-weight: bold;
-	z-index = 10;
+	/*z-index = 10;*/
 	font-size: 96%;
 	text-align: center;
 	margin-left: auto;
@@ -185,7 +195,7 @@ h2 {
 	bottom: -10px;
 	opacity: 0;
 	font-weight: bold;
-	z-index = 10;
+	/*z-index = 10;*/
 	font-size: 96%;
 	text-align: center;
 	margin-left: auto;
@@ -198,6 +208,30 @@ h2 {
 
 .member:hover .officer-info {
 	opacity: 1;
+}
+
+#message {
+	margin-top: 6px;
+}
+
+input {
+	margin-bottom: 10px;
+}
+
+input[type=text],
+textarea {
+	margin-left: 15px;
+	border: 1px solid #AFC3FF;
+	font-size: 70%;
+/*	-webkit-box-shadow: 
+      inset 0 0 8px  #99B1FF,
+            0 0 16px #99B1FF; 
+    -moz-box-shadow: 
+      inset 0 0 8px  #99B1FF,
+            0 0 16px #99B1FF; 
+    box-shadow: 
+      inset 0 0 8px  #99B1FF,
+            0 0 16px #99B1FF;*/
 }
 
 /*@media only screen
