@@ -36,7 +36,7 @@ h2 {
 }
 
 .menubar {
-	z-index: 999;
+	z-index: 10;
 	position: relative;
 	display: block;
 	background-color: #A7C5FF;
@@ -78,10 +78,6 @@ h2 {
 .dropdown-content a:hover {
 	background-color: #A7C5FF;
 	border-color: #2B52AD;
-}
-
-.show {
-	display: block;
 }
 
 .selected {
@@ -148,11 +144,17 @@ h2 {
 	-o-transition: all 0.25s;
 }
 
-.member img {
+.member input {
+	padding: 0;
+	margin: 0;
 	width: 100%;
-	border-top-left-radius: 50%;
-	border-top-right-radius: 50%;
+/*	border-top-left-radius: 50%;
+	border-top-right-radius: 50%;*/
 	/*border-radius: 50%;*/
+}
+
+input[type="image"] {
+	outline: none;
 }
 
 .middle {
@@ -162,11 +164,9 @@ h2 {
 .member-info {
 	color: black;
 	width: 96.8%;
-	padding-top: 4px;
-	padding-bottom: 6px;
 	background-color: rgba(255, 255, 255, 0.8);
 	position: absolute;
-	bottom: -9px;
+	bottom: -10px;
 	opacity: 0;
 	font-weight: bold;
 	/*z-index = 10;*/
@@ -188,11 +188,9 @@ h2 {
 .officer-info {
 	color: black;
 	width: 96.8%;
-	padding-top: 4px;
-	padding-bottom: 6px;
 	background-color: rgba(255, 255, 255, 0.8);
 	position: absolute;
-	bottom: -10px;
+	bottom: -9px;
 	opacity: 0;
 	font-weight: bold;
 	/*z-index = 10;*/
@@ -214,28 +212,50 @@ h2 {
 	margin-top: 6px;
 }
 
-form p {
-	margin: 0px;
+#overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 11;
+	background-color: rgba(0, 0, 0, 0.8);
 }
 
-input {
-	margin-bottom: 10px;
+.member-cont {
+	display: none;
+	color: white;
 }
 
-input[type=text],
-textarea {
-	margin-left: 15px;
-	border: 1px solid #AFC3FF;
-	font-size: 70%;
-/*	-webkit-box-shadow: 
-      inset 0 0 8px  #99B1FF,
-            0 0 16px #99B1FF; 
-    -moz-box-shadow: 
-      inset 0 0 8px  #99B1FF,
-            0 0 16px #99B1FF; 
-    box-shadow: 
-      inset 0 0 8px  #99B1FF,
-            0 0 16px #99B1FF;*/
+.spec-member {
+	position: absolute;
+	display: none;
+	width: 600px;
+	/*margin: 0 auto;*/
+	text-align: center;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.spec-member h2 {
+	/*text-align: center;*/
+	font-family: "Roboto Condensed";
+	font-size: 6vmin;
+}
+
+.spec-member p {
+	/*text-align: center;*/
+	font-family: "Roboto Condensed";
+}
+
+.spec-member img {
+	width: 48%;
+	border: solid black 1px;
+}
+
+.show {
+	display: block;
 }
 
 /*@media only screen
